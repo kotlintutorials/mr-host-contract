@@ -1,0 +1,12 @@
+{
+	"name": "mr-contract",
+	"private": true,
+	"type": "module",
+	"packageManager": "pnpm@10.28.0",
+	"scripts": {
+		"test": "vitest run"
+	},
+	"devDependencies": {
+		"vitest": "5.1.0"
+	}
+}

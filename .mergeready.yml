@@ -1,0 +1,8 @@
+# Policy for this fixture: Observe everywhere; lockfiles and workflows are never edited.
+version: 1
+default:
+  level: observe
+paths:
+  - name: protected
+    match: ["pnpm-lock.yaml", "**/*.lock", ".github/**"]
+    protected: true
